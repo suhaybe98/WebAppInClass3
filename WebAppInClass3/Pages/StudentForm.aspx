@@ -1,4 +1,4 @@
-﻿<%@ Page Title="" Language="C#" MasterPageFile="~/Site.Master" AutoEventWireup="true" CodeBehind="StudentForm.aspx.cs" Inherits="WebAppInClass3.Pages.WebForm1" %>
+﻿<%@ Page Title="" Language="C#" MasterPageFile="~/Site.Master" AutoEventWireup="true" CodeBehind="StudentForm.aspx.cs" Inherits="WebAppInClass3.Pages.StudentForm" %>
 <asp:Content ID="Content1" ContentPlaceHolderID="MainContent" runat="server">
     <h1>Hey Man</ h1>
         <div class="row">
@@ -11,7 +11,7 @@
             <asp:ValidationSummary ID="ValidationSummary1" runat="server"
                  HeaderText="Please correct the following issues with your current data entry" />
 
-            <asp:RequiredFieldValidator ID="RequiredFieldSIN" runat="server" 
+            <asp:RequiredFieldValidator ID="RequiredFieldStudentID" runat="server" 
                 ErrorMessage="StudentID is a required field" 
                 SetFocusOnError="true" ControlToValidate="StudentID" Display="None"></asp:RequiredFieldValidator>
             <asp:RegularExpressionValidator ID="RegularExpressionStudentID" runat="server" 
@@ -44,7 +44,7 @@
  
     <div class="row">
         <div class="col-md-4 text-right">
-                <asp:Label ID="Label1" runat="server" Text="StudentID"
+                <asp:Label ID="Label1" runat="server" Text="StudID"
                      AssociatedControlID="StudentID"></asp:Label>
         </div>
         <div class="col-md-4 text-left">

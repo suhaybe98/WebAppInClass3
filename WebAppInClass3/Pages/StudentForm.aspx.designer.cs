@@ -11,7 +11,7 @@ namespace WebAppInClass3.Pages
 {
 
 
-    public partial class WebForm1
+    public partial class StudentForm
     {
 
         /// <summary>
@@ -24,13 +24,13 @@ namespace WebAppInClass3.Pages
         protected global::System.Web.UI.WebControls.ValidationSummary ValidationSummary1;
 
         /// <summary>
-        /// RequiredFieldSIN control.
+        /// RequiredFieldStudentID control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.RequiredFieldValidator RequiredFieldSIN;
+        protected global::System.Web.UI.WebControls.RequiredFieldValidator RequiredFieldStudentID;
 
         /// <summary>
         /// RegularExpressionStudentID control.

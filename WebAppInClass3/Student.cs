@@ -7,7 +7,7 @@ namespace WebAppInClass3
 {
     public class Student
     {
-        public string StudentID { get; set; }
+        public int StudID { get; set; }
         public string Name { get; set; }
         
         public double Credit { get; set; }
@@ -21,7 +21,7 @@ namespace WebAppInClass3
                         double Credit,
                         string phone)
         {
-            StudentID = StudentID;
+            StudID = StudentID;
             Name = name;
             Credit = Credit;
             Phone = phone;
