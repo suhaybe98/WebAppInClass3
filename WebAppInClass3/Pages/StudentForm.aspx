@@ -13,10 +13,10 @@
 
             <asp:RequiredFieldValidator ID="RequiredFieldSIN" runat="server" 
                 ErrorMessage="StudentID is a required field" 
-                SetFocusOnError="true" ControlToValidate="SIN" Display="None"></asp:RequiredFieldValidator>
-            <asp:RegularExpressionValidator ID="RegularExpressionSIN" runat="server" 
+                SetFocusOnError="true" ControlToValidate="StudentID" Display="None"></asp:RequiredFieldValidator>
+            <asp:RegularExpressionValidator ID="RegularExpressionStudentID" runat="server" 
                 ErrorMessage="StudentID is invalid"
-                 SetFocusOnError="true" ControlToValidate="SIN" Display="None"
+                 SetFocusOnError="true" ControlToValidate="StudentID" Display="None"
                  ValidationExpression="^[1-9][0-9]*$"></asp:RegularExpressionValidator>
             
              <asp:RequiredFieldValidator ID="RequiredFieldName" runat="server" 
@@ -24,13 +24,13 @@
                 SetFocusOnError="true" ControlToValidate="Name" Display="None"></asp:RequiredFieldValidator>
 
             
-             <asp:RequiredFieldValidator ID="RequiredFieldWage" runat="server" 
+             <asp:RequiredFieldValidator ID="RequiredFieldCredit" runat="server" 
                 ErrorMessage="Credit is a required field" 
-                SetFocusOnError="true" ControlToValidate="Wage" Display="None"></asp:RequiredFieldValidator>
-            <asp:RangeValidator ID="RangeWage" runat="server" 
-                ErrorMessage="Wage out of range (0.0 to 40.0)"
+                SetFocusOnError="true" ControlToValidate="Credit" Display="None"></asp:RequiredFieldValidator>
+            <asp:RangeValidator ID="RangeCredit" runat="server" 
+                ErrorMessage="Credit out of range (0.0 to 40.0)"
                  MinimumValue="0.0" MaximumValue="40.0" Type="Double"
-                SetFocusOnError="true" ControlToValidate="Wage" Display="None"></asp:RangeValidator>
+                SetFocusOnError="true" ControlToValidate="Credit" Display="None"></asp:RangeValidator>
 
             <asp:RequiredFieldValidator ID="RequiredFieldPhone" runat="server" 
                 ErrorMessage="Phone is a required field" 
@@ -45,10 +45,10 @@
     <div class="row">
         <div class="col-md-4 text-right">
                 <asp:Label ID="Label1" runat="server" Text="StudentID"
-                     AssociatedControlID="SIN"></asp:Label>
+                     AssociatedControlID="StudentID"></asp:Label>
         </div>
         <div class="col-md-4 text-left">
-                <asp:TextBox ID="SIN" runat="server" ></asp:TextBox>
+                <asp:TextBox ID="StuentID" runat="server" ></asp:TextBox>
         </div>
     </div>
     <div class="row">
@@ -63,10 +63,10 @@
     <div class="row">
         <div class="col-md-4 text-right">
                   <asp:Label ID="Label3" runat="server" Text="Credit"
-                     AssociatedControlID="Wage"></asp:Label>
+                     AssociatedControlID="Credit"></asp:Label>
         </div>
         <div class="col-md-4 text-left">
-                <asp:TextBox ID="Wage" runat="server"></asp:TextBox>
+                <asp:TextBox ID="Creidt" runat="server"></asp:TextBox>
         </div>
     </div>
     <div class="row">

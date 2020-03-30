@@ -35,7 +35,7 @@ namespace WebAppInClass3.Pages
                 }
                 else
                 {
-                    Person newitem = new Person(StudentID.Text, Name.Text, double.Parse(Credit.Text), Phone.Text);
+                    Student newitem = new Student(StudentID.Text, Name.Text, double.Parse(credit.Text), Phone.Text);
                     People.Add(newitem);
                     PeopleGridView.DataSource = People;
                     PeopleGridView.DataBind();

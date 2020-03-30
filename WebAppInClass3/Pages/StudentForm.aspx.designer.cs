@@ -33,13 +33,13 @@ namespace WebAppInClass3.Pages
         protected global::System.Web.UI.WebControls.RequiredFieldValidator RequiredFieldSIN;
 
         /// <summary>
-        /// RegularExpressionSIN control.
+        /// RegularExpressionStudentID control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.RegularExpressionValidator RegularExpressionSIN;
+        protected global::System.Web.UI.WebControls.RegularExpressionValidator RegularExpressionStudentID;
 
         /// <summary>
         /// RequiredFieldName control.
@@ -51,22 +51,22 @@ namespace WebAppInClass3.Pages
         protected global::System.Web.UI.WebControls.RequiredFieldValidator RequiredFieldName;
 
         /// <summary>
-        /// RequiredFieldWage control.
+        /// RequiredFieldCredit control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.RequiredFieldValidator RequiredFieldWage;
+        protected global::System.Web.UI.WebControls.RequiredFieldValidator RequiredFieldCredit;
 
         /// <summary>
-        /// RangeWage control.
+        /// RangeCredit control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.RangeValidator RangeWage;
+        protected global::System.Web.UI.WebControls.RangeValidator RangeCredit;
 
         /// <summary>
         /// RequiredFieldPhone control.
@@ -96,13 +96,13 @@ namespace WebAppInClass3.Pages
         protected global::System.Web.UI.WebControls.Label Label1;
 
         /// <summary>
-        /// SIN control.
+        /// StuentID control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox SIN;
+        protected global::System.Web.UI.WebControls.TextBox StuentID;
 
         /// <summary>
         /// Label2 control.
@@ -132,13 +132,13 @@ namespace WebAppInClass3.Pages
         protected global::System.Web.UI.WebControls.Label Label3;
 
         /// <summary>
-        /// Wage control.
+        /// Creidt control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox Wage;
+        protected global::System.Web.UI.WebControls.TextBox Creidt;
 
         /// <summary>
         /// Label4 control.
