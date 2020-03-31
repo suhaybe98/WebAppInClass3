@@ -18,13 +18,13 @@ namespace WebAppInClass3.Pages
         }
         protected void Add_Click(object sender, EventArgs e)
         {
-            MessageLabel.Text = "SIN = " + StudID.Text + " Name = " + Name.Text;
+            MessageLabel.Text = "StudID = " + StudID.Text + " Name = " + Name.Text;
             if (Page.IsValid)
             {
                 bool found = false;
                 foreach (var item in People)
                 {
-                    if (item.StudID == StudID.Text)
+                    if (item.StudID == int.Parse(StudID.Text))
                     {
                         found = true;
                     }
@@ -35,7 +35,7 @@ namespace WebAppInClass3.Pages
                 }
                 else
                 {
-                    Student newitem = new Student(StudID.Text, Name.Text, double.Parse(Credit.Text), Phone.Text);
+                    Student newitem = new Student(int.Parse(StudID.Text), Name.Text, double.Parse(Credit.Text), Phone.Text);
                     People.Add(newitem);
                     PeopleGridView.DataSource = People;
                     PeopleGridView.DataBind();

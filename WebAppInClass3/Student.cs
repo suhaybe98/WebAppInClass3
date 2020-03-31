@@ -12,16 +12,16 @@ namespace WebAppInClass3
         
         public double Credit { get; set; }
         public string Phone { get; set; }
-        public Student()
+        public Student(string text)
         {
 
         }
-        public Student(int StudentID,
+        public Student(int StudID,
                         string name,  
                         double Credit,
                         string phone)
         {
-            StudID = StudentID;
+            StudID = StudID;
             Name = name;
             Credit = Credit;
             Phone = phone;

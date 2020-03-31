@@ -13,10 +13,10 @@
 
             <asp:RequiredFieldValidator ID="RequiredFieldStudentID" runat="server" 
                 ErrorMessage="StudentID is a required field" 
-                SetFocusOnError="true" ControlToValidate="StudentID" Display="None"></asp:RequiredFieldValidator>
+                SetFocusOnError="true" ControlToValidate="StudID" Display="None"></asp:RequiredFieldValidator>
             <asp:RegularExpressionValidator ID="RegularExpressionStudentID" runat="server" 
                 ErrorMessage="StudentID is invalid"
-                 SetFocusOnError="true" ControlToValidate="StudentID" Display="None"
+                 SetFocusOnError="true" ControlToValidate="StudID" Display="None"
                  ValidationExpression="^[1-9][0-9]*$"></asp:RegularExpressionValidator>
             
              <asp:RequiredFieldValidator ID="RequiredFieldName" runat="server" 
@@ -45,10 +45,10 @@
     <div class="row">
         <div class="col-md-4 text-right">
                 <asp:Label ID="Label1" runat="server" Text="StudID"
-                     AssociatedControlID="StudentID"></asp:Label>
+                     AssociatedControlID="StudID"></asp:Label>
         </div>
         <div class="col-md-4 text-left">
-                <asp:TextBox ID="StuentID" runat="server" ></asp:TextBox>
+                <asp:TextBox ID="StudID" runat="server" ></asp:TextBox>
         </div>
     </div>
     <div class="row">
@@ -66,7 +66,7 @@
                      AssociatedControlID="Credit"></asp:Label>
         </div>
         <div class="col-md-4 text-left">
-                <asp:TextBox ID="Creidt" runat="server"></asp:TextBox>
+                <asp:TextBox ID="Credit" runat="server"></asp:TextBox>
         </div>
     </div>
     <div class="row">

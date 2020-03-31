@@ -96,13 +96,13 @@ namespace WebAppInClass3.Pages
         protected global::System.Web.UI.WebControls.Label Label1;
 
         /// <summary>
-        /// StuentID control.
+        /// StudID control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox StuentID;
+        protected global::System.Web.UI.WebControls.TextBox StudID;
 
         /// <summary>
         /// Label2 control.
@@ -132,13 +132,13 @@ namespace WebAppInClass3.Pages
         protected global::System.Web.UI.WebControls.Label Label3;
 
         /// <summary>
-        /// Creidt control.
+        /// Credit control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox Creidt;
+        protected global::System.Web.UI.WebControls.TextBox Credit;
 
         /// <summary>
         /// Label4 control.
